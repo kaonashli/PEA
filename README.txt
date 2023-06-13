@@ -1,4 +1,8 @@
-Made by: Ashley Boily, 2020
+Program Exit Assessment Project at Heritage College
+
+Viewable: https://courageous-liger-b70bd0.netlify.app/index.html
+
+Made by: Ashley, 2020
 
 **RATIONAL FOR COLOUR PALETTE** 
 Colour Palette: #ffbb00, #00273f, #0090e3, black, white
