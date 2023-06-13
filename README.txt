@@ -1,5 +1,7 @@
 Program Exit Assessment Project at Heritage College
 
+Viewable: https://courageous-liger-b70bd0.netlify.app/index.html
+
 Made by: Ashley, 2020
 
 **RATIONAL FOR COLOUR PALETTE** 
