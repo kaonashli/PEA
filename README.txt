@@ -1,6 +1,6 @@
 Program Exit Assessment Project at Heritage College
 
-Made by: Ashley Boily, 2020
+Made by: Ashley, 2020
 
 **RATIONAL FOR COLOUR PALETTE** 
 Colour Palette: #ffbb00, #00273f, #0090e3, black, white
