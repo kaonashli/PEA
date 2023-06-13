@@ -103,7 +103,7 @@ $(document).ready(function (){
         });
     }
 
-    if (CURRENT !== "index" && CURRENT !=="/pea/"){
+    if (CURRENT !== "index" && CURRENT !=="/"){
         addBanner();
         addFooter();
         addNavigationBar()
