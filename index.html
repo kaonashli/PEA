@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="icon" type="image/svg" href="images/logo.svg"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--Add a title-->
+    <title>PEA - Home Page</title>
+
+</head>
+<body>
+
+<nav id="nav-bar" class="navbar navigation navbar-expand-lg navbar-dark">
+    <div id="banner">
+        <div id="title-logo-container">
+            <a href="index.html"><img id="logo" src="images/logo.svg" alt="PEA Logo"></a>
+            <div id="title-container">
+                <h2>Program Exit Assessment</h2>
+                <h2>Ashley Boily</h2>
+
+                <div id="info">Heritage College |
+                    Computer Science Program |
+                    2021</div>
+            </div>
+        </div></div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul id="nav-bar-list" class="navbar-nav">
+            <li class="nav-item active" id="nav-index">
+                <a class="nav-link" id="index" href="index.html">Home</a>
+            </li><li class="nav-item dropdown" id="nav-initiation">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkInitiation" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Initiation</a>
+            <div id="nav-list-Initiation" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><a href="html/process.html" class="dropdown-item" id="nav-process">Process</a><a href="html/team-environment.html" class="dropdown-item" id="nav-team-environment">Team Environment</a><a href="html/project-management.html" class="dropdown-item" id="nav-project-management">Project Management</a></div>
+
+        </li><li class="nav-item dropdown" id="nav-construction">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkConstruction" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Construction</a>
+            <div id="nav-list-Construction" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><a href="html/requirements.html" class="dropdown-item" id="nav-requirements">Requirements</a><a href="html/analysis.html" class="dropdown-item" id="nav-analysis">Analysis</a><a href="html/design.html" class="dropdown-item" id="nav-design">Design</a><a href="html/implementation.html" class="dropdown-item" id="nav-implementation">Implementation</a><a href="html/test.html" class="dropdown-item" id="nav-test">Test</a></div>
+
+        </li><li class="nav-item dropdown" id="nav-release">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkRelease" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Release</a>
+            <div id="nav-list-Release" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><a href="html/deployment.html" class="dropdown-item" id="nav-deployment">Deployment</a><a href="html/training.html" class="dropdown-item" id="nav-training">Training</a></div>
+
+        </li><li class="nav-item" id="nav-maintenance">
+            <a class="nav-link" id="maintenance" href="html/maintenance.html">Maintenance</a>
+        </li><li class="nav-item" id="nav-communications">
+            <a class="nav-link" id="communications" href="html/communications.html">Communications</a>
+        </li></ul>
+    </div>
+    <button id="toggle-button" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button></nav>
+    <header>
+        <p id="page-title" class="hidden"><!-- Update Page Title --> Welcome</p>
+        <h1 id="typing-title" class="typing"></h1>
+        <h1 id="text-cursor" class="typing">|</h1>
+    </header>
+    <main>
+        <!-- Update content -->
+        <section>
+            <h4>Introduction</h4>
+            <p>
+                My name is Ashley Boily and this is my online portfolio.<br>
+                I am a student at Heritage College in the Computer Science program. In our final year of the program, we are required to complete
+                a Program Exit Assessment (PEA). The purpose of the PEA is to demonstrate achievement of the objectives and 
+                standards determined for the Computer Science Program through preparing a digital portfolio based on 
+                the project completed in the Development Project courses. 
+                This web site serves this purpose. The navigation bar can be used to access different sections of the PEA.<br>
+                You can also refer to <a target="_blank" href="documents/Ashley_CV.pdf">my resume</a> which provides 
+                additional information on my overall work experience.
+            </p>
+        </section>
+        <section>
+            <h4>PEA Project</h4>
+            <h5>Learning Centre System</h5>
+            <p>
+                The Brigil Learning Centre (BLC) has been providing tutoring services to students in various subjects. 
+                Due to COVID19 and social distancing,
+                teachers at the BLC had been meeting with students online through Discord.
+                Although Discord is a great tool, it had some limitations. The BLC needed a system that could allow students to queue up for online or in-person meetings.
+                Additionally they also needed a way to automatically log information about those meetings.<br>
+                Our solution was to create the Learning Center System (LCS).
+                Our system improved the overall experience of users by replacing the physical log book, 
+                reducing overall paperwork that professors must track,
+                and by allowing students to queue up anytime during the professor's tutoring session.
+                This system was developed by Ashley Boily, Ibrahim Ahmed, 
+                Jeremy Barbeau-Gagnon, Gabriel Jolicoeur-McCharles, Maxim Lam and Tyler Lehmann with Richard Chan as our project manager during the Fall 2020 and Winter 2021 semesters.
+                The team worked together in 2 week sprints using Team Foundation Server for version control, to store documents and to manage our tasks.
+
+            </p>
+        </section>
+        <section>
+            <h4>Applied Experience</h4>
+            <p>
+                At the end of our first and second year, students have the opportunity to work 2 co-op work terms. This gives us the chance to gain experience before graduating. 
+                For each work term, students are required to have an average of 70% in all their CS courses as well as write a co-op report at the end of the work term.
+            </p>
+            <h5>DND Co-op 2019</h5>
+            
+            <p>
+                During the summer of 2019, I worked for Department of National Defense (DND) for DIMEUS. As a technical support officer, 
+                my main tasks involved handling service requests (tickets) for clients when they had any kind of 
+                computer related issues or tasks. For more information on this work term you can refer to my 
+                <a target="_blank" href="documents/report_2019.pdf">DND Co-op Report</a>.
+            </p>
+            <h5>ESDC Co-op 2020</h5>
+            <p>
+                During the summer of 2020, I worked for Employment and Social Development Canada (ESDC). 
+                As a developer, my main task was to create some report pages and to provide graphing functionality to the reports. 
+                For more information on this work term you can refer to my 
+                <a target="_blank" href="documents/report_2020.pdf">ESDC Co-op Report</a>.
+            </p>
+        </section>
+    </main>
+<footer class="fixed-bottom"><p>© <a href="mailto:1221230@cegep-heritage.qc.ca">Ashley Boily</a>,
+    <a href="http://www.cegep-heritage.qc.ca/Programs/Computer_Science/index.php">Computer Science</a>,
+    <a href="https://www.cegep-heritage.qc.ca/">Cegep Heritage College</a>, 2021.  All Rights Reserved.</p></footer>
+<script src="js/template.js"></script>
+</body>
+
+</html>

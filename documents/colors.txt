@@ -1,0 +1,4 @@
+#FE877C nav/banners
+#FEA16F	buttons
+#FDC168 Titles
+#49310D text
